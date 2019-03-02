@@ -3,12 +3,15 @@ require_relative 'config/environment'
 class App < Sinatra::Base
 
   get '/name' do
-  @medicines = Medicine.all
+    "Hello, World!"
+  end
 
   get '/hometown' do
-  @medicines = Medicine.all
+    "My hometown is Craig, Alaska."
+  end
 
   get '/favorite-song' do
-  @medicines = Medicine.all
+    "My favorite song is 4am."
+  end
 
 end
